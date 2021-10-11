@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&display=swap');
+
+html,
+body {
+    font-size: 12px;
+    padding: 0;
+    margin: 0;
+    font-family: Hind, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+.filterButton {
+    background: none;
+    border: 1px solid #A62E44;
+    color:#a01e1e;
+    font-size: 17px;
+    text-transform: uppercase;
+    padding: 20px;
+    width: 180px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.filterButton:hover {
+    background-color:#A62E44;
+    color: white;
+    transition: 0.2s ease-in-out;
+
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+* {
+    box-sizing: border-box;
+}
